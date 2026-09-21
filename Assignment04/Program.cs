@@ -7,7 +7,7 @@ namespace Assignment04
         {
             #region Question 1
 
-            //1st answer
+            //1st answer01
             //a)that is hide implements Property and methods ,Focus on what do,not how
             //b)maintenance,Reusability,Reduse complexity,Security 
             #endregion
