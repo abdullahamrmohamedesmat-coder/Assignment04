@@ -12,6 +12,13 @@ namespace Assignment04
             //b)maintenance,Reusability,Reduse complexity,Security 
             #endregion
 
+            #region Q2
+            //2st answer
+            //a)Abstract Class : You Can create Constructor,Fields,Class Can inherite from one Abstracct Class Only,Interface : You Can't create Constructor,Multi implementatioins
+            //b)Whwn you need to use behavior for unrelated classes,Multi Implementations,one you neet to select Contract without need to implimentation code
+            //c)N0,Yes
+            #endregion
+
             //Practical Answer
             DeliveryAddress delivery = new DeliveryAddress("Cairo", "Al Tahrir", 23);
             StandardShipment standardShipment = new StandardShipment("DWE-34R", "Clothos", 343, 233, delivery);
