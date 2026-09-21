@@ -19,6 +19,8 @@ namespace Assignment04
             //c)N0,Yes
             #endregion
 
+
+            #region Q3
             //Practical Answer03
             DeliveryAddress delivery = new DeliveryAddress("Cairo", "Al Tahrir", 23);
             StandardShipment standardShipment = new StandardShipment("DWE-34R", "Clothos", 343, 233, delivery);
@@ -48,7 +50,7 @@ namespace Assignment04
                 new StandardShipment("DWE-34R", "Clothos", 343, 233, delivery),
                 new ExpressShipment("IWE-2","Cars", 23, 443, delivery, 343),
                 new InternationalShipment("TOW-232", "LAPTOPS", 3434, 343, delivery, "Egypt", 232)
-            }; 
+            };
             foreach (ITrackable trackable in trackables)
             {
                 Console.WriteLine(trackable.GetTrackingStatus());
@@ -60,11 +62,12 @@ namespace Assignment04
                 new ExpressShipment("IWE-2","Cars", 23, 443, delivery, 343),
                 new InternationalShipment("TOW-232", "LAPTOPS", 3434, 343, delivery, "Egypt", 232)
             };
-            
-            foreach(IInsurable insurable1 in insurables)
+
+            foreach (IInsurable insurable1 in insurables)
             {
                 Console.WriteLine(insurable1.CalculateInsurance());
-            }
+            } 
+            #endregion
         }
     }
 }
